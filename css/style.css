@@ -1,0 +1,162 @@
+body
+{
+width:1349px;
+margin-left:auto;
+margin-right:auto;
+font-size:14px;
+}
+.header
+{
+width:101.1%;
+margin-left:-9px;
+height:95px;
+}
+
+@media screen and (max-width: 1024px)
+{
+body
+{
+width:1024px;
+margin-left:auto;
+margin-right:auto;
+font-size:14px;
+}
+.header
+{
+width:101.1%;
+margin-left:-9px;
+height:150px;
+}
+.main
+{
+background:url('../images/background.png') repeat;
+min-height:530px;
+margin-top:0px;
+width:1024px;
+margin-left:-5px;
+padding-top:75px;
+}
+.inw_entry, .inw_edit, .outw_entry, .app_entry, .app_details, .app_edit
+{
+width:800px;
+margin-top:10px;
+margin-left:300px;
+border:1px solid #000000;
+padding:20px 0px 20px 30px;
+background-color:#F2FDFF;
+box-shadow:1px 0.5px 1px 0.5px black;
+border-color:#F2FDFF;
+}
+
+}
+.set
+{
+width:350px;
+}
+.set1
+{
+width:450px;
+
+}
+.set, .set1
+{
+border:1px solid #000000;
+margin-top:50px;
+margin-left:350px;
+padding:20px 0px 20px 30px;
+background-color:#F2FDFF;
+box-shadow:1px 0.5px 1px 0.5px black;
+border-color:#F2FDFF;
+}
+.user,.pass
+{
+width:200px;
+height:30px;
+border-radius:5px;
+outline:none;
+}
+.login
+{
+width:320px;
+height:40px;
+padding:10px 0 10px 0;
+}
+.main
+{
+background:url('../images/background.png') repeat;
+
+margin-top:0px;
+width:93.8%;
+margin-left:-5px;
+padding-top:75px;
+padding-left:95px;
+}
+.footer
+{
+text-align:center;
+width:100.7%;
+margin-left:-5px;
+background:url('../images/transparent.png');
+height:25px;
+}
+ul
+{
+list-style:none;
+width:97%;
+margin-top:0px;
+background:url('../images/transparent.png') repeat;
+height:30px;
+padding-top:15px;
+}
+ul li 
+{
+display:inline;
+padding-left:30px;
+}
+ul li a
+{
+text-decoration:none;
+color:#000000;
+}
+.inw_entry, .inw_edit, .outw_entry, .app_entry, .app_details, .app_edit, .cal_show, .cal_edit
+{
+margin-top:0px;
+border:1px solid #000000;
+padding:20px 10px 20px 20px;
+background-color:#F2FDFF;
+box-shadow:1px 0.5px 1px 0.5px black;
+border-color:#F2FDFF;
+}
+.inw_entry, .inw_edit
+{
+width:900px;
+margin-left:80px;
+}
+.app_entry
+{
+width:1100px;
+margin-left:80px;
+}
+.app_edit
+{
+width:1190px;
+margin-left:40px;
+}
+
+.cal_show, .cal_edit
+{
+width:1190px;
+margin-left:40px;
+}
+.red
+{
+color:#FF0000;
+}
+.blue
+{
+color:#0000FF;
+}
+input[type=submit]
+{
+font-weight:900;
+}
